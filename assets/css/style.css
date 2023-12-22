@@ -133,6 +133,7 @@ button,
 time,
 span {
   display: block;
+  border-radius: 20px;
 }
 
 button {
@@ -331,7 +332,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 112px;
+  max-height: 136px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -1437,6 +1438,7 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box img {
     width: 120px;
+    border-radius: 30px;
   }
 
   .info-content .name {
